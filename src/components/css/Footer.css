@@ -1,0 +1,100 @@
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-color:#a1a6a4;
+    padding-top: 60px;
+}
+.contact-box{
+    height: 400px;
+    margin-top: 30vh;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #6d717090;
+    border-radius: 8px;
+}
+.contact-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    border: 1px solid black;
+}
+.sub-box{
+    width: 400px;
+    height: 100%;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #02301e;
+}
+.sub-box h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+.sub-box p{
+    font-size: 15px;
+    color: black;
+}
+.sub-box input{
+    margin-top: 80px;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #02301e;
+    outline: none;
+    transition: 0.5s ease-in-out;
+    color: white;
+    padding-left: 5px;
+    font-size: 18px;
+}
+.sub-box input:hover{
+    background-color: #18583f;
+}
+.sub-box input::placeholder{
+    color: black;
+}
+.sub-box input:hover::placeholder{
+    color: white;
+}
+.sub-box button{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.sub-box button:hover{
+    background-color: darkred;
+}
+.contact-links{
+    height: 100%;
+    width: 500px;  
+}
+.contact-links ul li{
+    margin-top: 30px;
+}
+.contact-links ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-links ol {
+    list-style: none;
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-links ol li{
+    margin-top: 20px;
+}
+.contact-links ol li a{
+    text-decoration: none;
+    color: blue;
+
+}
